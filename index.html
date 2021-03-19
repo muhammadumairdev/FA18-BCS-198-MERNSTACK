@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Validation form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="javascript.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>REGISTER</h1>
+		<center>
+            <form id="registration_form">
+                <div>
+                    <input type="text" id="fnm" name="" required="">
+                    <span class="error_form" id="ernm"></span>
+                    <label>
+                         Name
+                    </label>	
+                </div>
+                <div>
+                    <input type="email" id="fe" name="" required="">
+                    <span class="error_form" id="fem"></span>
+                    <label>Email</label>	
+                </div>
+                <div>
+                    <input type="password" id="fp" name="" required="">
+                    <span class="error_form" id="fpm"></span>
+                    <label>Password</label>	
+                </div>
+                <div>
+                    <input type="password" id="fcp" name="" required="">
+                    <span class="error_form" id="fcpm"></span>
+                    <label>Confirm Password</label>	
+                </div>
+                <input type="submit" value="Register" name="">
+            </form>
+        </center>
+	</div>
+</body>
+</html>
